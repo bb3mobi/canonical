@@ -1,0 +1,25 @@
+{
+    "name": "bb3mobi/canonical",
+    "type": "phpbb-extension",
+    "description": "Delete id forums in viewtopic url",
+    "homepage": "http://phpbbguru.net",
+    "version": "1.0.0",
+    "time": "2015-11-25",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Anvar",
+            "homepage": "http://bb3.mobi",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Canonical links for topic",
+        "soft-require": {
+		    "phpbb/phpbb": ">=3.1.5"
+        }
+    }
+}

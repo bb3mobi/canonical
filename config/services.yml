@@ -1,0 +1,7 @@
+services:
+    bb3mobi.canonical.listener:
+        class: bb3mobi\canonical\event\listener
+        arguments:
+            - @user
+        tags:
+            - { name: event.listener }
